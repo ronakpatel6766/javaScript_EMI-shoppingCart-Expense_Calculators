@@ -1,0 +1,98 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family:Tahoma, Arial;
+}
+
+.bcalc p {
+	margin:0 0 10px 0;
+	line-height:150%;
+	color:#555;
+}
+
+.bcalc .clear{
+	clear:both;
+}
+
+.bcalc #content {
+	padding:10px 0;
+	width:960px;
+	margin:10px auto;
+	min-height:500px;
+}
+.bcalc  h1 {
+	text-transform:uppercase;
+	letter-spacing:4px;
+	font-size:26px;
+	word-spacing:5px;
+	font-weight:normal;
+	background:#607d8b;
+	color:#fff;
+	margin:0 0 25px 0;
+	text-align:center;
+	padding:20px 0;
+}
+
+.bcalc #main {
+	float:left;
+	width: 70%;
+}
+
+.bcalc #sidebar {
+	float:right;
+	width: 25%;
+}
+.bcalc #sidebar h3 {
+	color:#DD4F42;
+	padding:0 0 4px 0;
+	border-bottom:1px solid #999;
+	margin:0 0 10px 0;l
+}
+.bcalc input, .bcalc select {
+	width:100%;
+	padding:5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border:1px solid #ccc;
+	background:#f9f9f9;
+}
+
+.bcalc table {
+	width:100%;
+	border-collapse:collapse;
+	text-align:center;
+	margin:20px 0;
+}
+.bcalc table td {
+	border:1px solid #ddd;
+	padding:5px;
+}
+.bcalc table th {
+	background:#0074E8;
+	border:1px solid #ddd;
+	padding:5px;
+	color:#fff;
+}
+
+.bcalc table#summary tr:first-child {
+	background:#16A05D;
+	color:#fff;
+}
+
+.bcalc button {
+	background:#FFCD42;
+	padding:10px 30px;
+	border:none;
+	cursor:pointer;
+	font-size:18px;
+	transition:all 0.1s linear;
+	color:#000;
+}
+
+.bcalc footer #credits{
+	text-align:center;
+	margin:40px 0 0  0;
+	padding:10px 0;
+	background:#eee;
+}

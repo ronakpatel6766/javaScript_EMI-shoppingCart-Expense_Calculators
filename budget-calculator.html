@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Budget Calculator made using Javascript</title>
+	<link rel="stylesheet" href="css/budgetcalculator.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="icon" href="images/icon_budget.png" type="image/png" sizes="16x16">
+    <script src="js/budgetcalculator.js"></script>
+    <link href="css/shopping_list.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id=b_header>   
+            <div id=b_logo>
+            <img src="images/logo.png" alt="logo">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="shopping_list.html">Shopping Cart list</a></li>
+                    <li><a href="budget-calculator.html">Budget Application</a></li>
+                    <li><a href="emi_cals.html">EMI Calculator</a></li>
+                </ul>
+            </nav> 
+      </div> 
+    
+<div class="bcalc">
+	<h1>Budget Calculator</h1>
+	<div id="content">
+		<div id="main">		
+			<p>Use this calculator to manage your monthly expenses. Add your monthly salary or any other additional source of income and then add your monthly expenses like Rent, Mortgage, Groceries, Food expenses, Car Insurance, Transportation Cost etc.</p>
+			
+			<table id="entries" style="display:none;">
+			<tbody>
+			<tr>
+				<th>S. No.</th>
+				<th>Details</th>
+				<th>Debit</th>
+				<th>Credit</th>
+			</tr>
+			</tbody>
+			</table>
+
+
+			<table id="summary" style="display:none;">
+			<tbody>
+			<tr>
+				<td>Total Income</td>
+				<td>Total Expenses</td>
+				<td>Savings</td>		
+			</tr>
+			<tr>
+				<td id="totalincome"></td>
+				<td id="totalexpenses"></td>
+				<td id="savings"></td>		
+			</tr>
+			</tbody>
+			</table>
+
+
+		</div>
+
+		<div id="sidebar">		
+			<h3>Add An Entry</h3>
+			<p><label>Entry Type</label><br/>
+			<select id="entrytype">
+				<option value="expense">Expense</option>
+				<option value="income">Income</option>
+			</select>
+			<p><label>Description</label><br/>
+			<input type="text" id="description" value="" /></p>
+			<p><label>Amount - CAD</label><br/>
+			<input type="text" id="amount" value="" /></p>
+			<button id="addanentry">Add An Entry</button>
+		</div>
+
+		<div class="clear"></div>
+        
+	</div>
+
+	<footer>
+        <div id=b_foot2>
+          <div id=b_connect>
+          Ronak Patel.<br> Email: <a href="mailto:ronakpatel6766@gmail.com"><i>ronakpatel6766@gmail.com</i></a>
+          </div>
+          <div id=b_copyr>
+                &copy; 2020 All rights reserved. Privacy Policy.
+          </div>
+        </div> 
+	</footer>
+
+</div>
+
+<!--Budget Calculator made by Ramanjeet Kaur.-->
+</body>
+</html>

@@ -1,0 +1,198 @@
+/*RONAK PATEL*/
+
+/*Header*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Tahoma, Arial;
+}
+#b_header{
+    
+    background-color:lightgray;
+    height: 9em;
+    
+}
+#b_logo{
+    /*padding-left: 3em;*/
+    padding-bottom: 10px;
+    float: left;
+} 
+#b_logo img{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+   
+}
+nav{
+    float: right;
+    padding-right: 5em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+
+}
+nav ul li {
+    display: inline-block;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+nav ul li a {
+    display: block;
+    color: #164B83;
+    text-decoration: none;
+    padding: 2.7em 1.8em;
+    color: navy blue;
+    border: 3px solid transparent;
+    font-size: 20px;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: #ff7f00;
+}
+
+/*header end*/
+.b_screen{
+    width: 100%;
+    position: relative;
+    min-height: 80vh;    
+    
+}
+
+#b_add_items{
+    color: black;
+}
+.b_container{
+    padding-bottom: 2.5rem;
+}
+#b_sList label{
+    width: 80%;
+}
+#b_sList li{
+    list-style-type: none;
+}
+
+.uncompleted label{
+    color: #afa7a7;
+    text-decoration: line-through;
+}
+#b_sList .btn{
+    margin-left: 10px;
+}
+#b_container button {
+    margin-left:200px;
+
+}
+ul label{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 5px
+}
+#b_sList{
+    border: 2px solid black;
+    text-align:center;
+    padding-top: 10px; 
+}
+#b_sList button {
+
+    margin-bottom:  15px;
+    background-color:grey;
+    color: black;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 140px;
+    font-weight: bolder;
+}
+
+.b_text-center{
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.b_form-group{
+    text-align: center;
+}
+.b_form-group label{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.b_form-group input {
+    width: 500px;
+    height: 30px;
+    background:lightgray;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.b_screen button{
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+    background: #006666;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+.b_screen #b_clearButton{
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    background: #9e004f;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.b_screen h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+h1 {
+	text-transform:uppercase;
+	letter-spacing:4px;
+	font-size:26px;
+	word-spacing:5px;
+	font-weight:normal;
+	background:#607d8b;
+	color:#fff;
+	margin:0 0 25px 0;
+	text-align:center;
+	padding:20px 0;
+}
+
+/*footer*/
+
+
+#b_foot2{
+    height:4em;
+    background-color: #f5ede3;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+#b_connect{
+    color: #18518c;
+    float: left;
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
+#b_copyr{
+    color: #18518c;
+    float: right;
+    padding-top: 1.2em;
+    padding-right: 1em;
+
+}
